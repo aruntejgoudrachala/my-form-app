@@ -1,4 +1,4 @@
-/* Container for the form */
+
 form {
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* Form elements: input, textarea, label */
+ 
   form div {
     margin-bottom: 15px;
     width: 100%;
@@ -40,7 +40,6 @@ form {
     height: 100px;
   }
   
-  /* Button styles */
   button {
     width: 100%;
     padding: 10px;
@@ -57,7 +56,7 @@ form {
     background-color: #45a049;
   }
   
-  /* Success message */
+ 
   p {
     color: #4CAF50;
     font-size: 16px;
@@ -65,7 +64,7 @@ form {
     margin-top: 15px;
   }
 
-  /* Error message */
+  
 .error {
     color: #d8000c;
     background-color: #ffbaba;
@@ -74,7 +73,7 @@ form {
     border-radius: 4px;
   }
   
-  /* Success message */
+ 
   .success {
     color: #4CAF50;
     background-color: #dff0d8;
