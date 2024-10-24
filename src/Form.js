@@ -21,20 +21,20 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Check if any field is empty
+   
     if (!formData.name || !formData.email || !formData.message) {
       setErrorMessage('Please fill out all fields.');
-      setSuccessMessage(''); // Clear success message if there's an error
+      setSuccessMessage(''); 
       return;
     }
 
-    // Clear error message if inputs are valid
+    
     setErrorMessage('');
 
-    // Simulate successful form submission
+   
     setSuccessMessage('Form submitted successfully!');
 
-    // Clear form inputs
+    
     setFormData({
       name: '',
       email: '',
@@ -80,9 +80,9 @@ const Form = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
-      {/* Display error message if any */}
+      {}
       {errorMessage && <p className="error">{errorMessage}</p>}
-      {/* Display success message if form is successfully submitted */}
+      {}
       {successMessage && <p className="success">{successMessage}</p>}
     </div>
   );
